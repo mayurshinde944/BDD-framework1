@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="139.2" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Invalid Email" name="verify that invalid email are identified" time="40.048">
+<system-out><![CDATA[
+Given I click on SignIn.....................................................passed
+And I enter username as mayur...............................................passed
+And I enter password as Test@1234...........................................passed
+And I click on Sign In button...............................................passed
+Then I verify that invalid email error message is shown to user.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Login page scenarios" name="Verify that the login is scucessfull" time="56.629">
+<system-out><![CDATA[
+Given I click on SignIn.....................................................passed
+And I enter username as mayur@gmail.com.....................................passed
+And I enter password as Test@1234...........................................passed
+And I click on Sign In button...............................................passed
+And I click on ProfileManagement............................................passed
+Then I see ProfileManagement Page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="invalid password" name="verify that invalid password are identified" time="42.291">
+<system-out><![CDATA[
+Given I click on SignIn.....................................................passed
+And I enter username as mayur@gmail.com.....................................passed
+And I enter password as Test@12.............................................passed
+And I click on Sign In button...............................................passed
+Then I verify that invalid password error message is shown to user..........passed
+]]></system-out>
+</testcase>
+</testsuite>
