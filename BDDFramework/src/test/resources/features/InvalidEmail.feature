@@ -1,5 +1,5 @@
 
-@Regression @Sanity
+@Regression @Sanity @Test1
 Feature: Invalid Email
 
   Scenario: verify that invalid email are identified
