@@ -1,4 +1,4 @@
-@Regression
+@Regression @Test2
 
 Feature: Login page scenarios
 
