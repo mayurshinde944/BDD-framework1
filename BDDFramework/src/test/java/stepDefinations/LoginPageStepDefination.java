@@ -38,29 +38,24 @@ public class LoginPageStepDefination {
 //	public void verifydashboardPage() {
 //		register.clickLogInButton();
 
-	//}
+	// }
 	@And("^I click on ProfileManagement$")
-	public void clickProfileManagement()
-	{
+	public void clickProfileManagement() {
 		register.clickProfileManagement();
 	}
-	
+
 	@Then("^I see ProfileManagement Page$")
-	public void verifyProfileManagement()
-	{
-		 
+	public void verifyProfileManagement() {
+
 	}
-	
+
 	@Then("^I verify that invalid password error message is shown to user$")
-			public void validateInavlidPasswordMessage()
-			{
-		     register.verifyInvalidPassword();
-			}
-	
+	public void validateInavlidPasswordMessage() {
+		register.verifyInvalidPassword();
+	}
+
 	@Then("^I verify that invalid email error message is shown to user$")
-	public void validateInavlidEmailMessage()
-	{
-     register.verifyInvalidEmail();
+	public void validateInavlidEmailMessage() {
+		register.verifyInvalidEmail();
 	}
 }
-
